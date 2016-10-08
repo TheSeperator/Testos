@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace Testos
 {
-    class Program
+    class Ente
     {
-        static void Main(string[] args)
+        public void Quak()
         {
-            Ente meineEnte = new Testos.Ente();
-            meineEnte.Quak();
-            Console.ReadLine();
+            Console.WriteLine("Quak");
         }
     }
 }
