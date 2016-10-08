@@ -12,6 +12,7 @@ namespace Testos
         {
             Ente meineEnte = new Testos.Ente();
             meineEnte.Quak();
+            meineEnte.Schwimmen();
             Console.ReadLine();
         }
     }

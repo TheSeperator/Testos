@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Testos
 {
-    class Ente
+    class Ente : ISwimable
     {
         public void Quak()
         {
             Console.WriteLine("Quak");
+        }
+
+        public void Schwimmen()
+        {
+            Console.WriteLine("Schwmm Schwimm :)");
         }
     }
 }
