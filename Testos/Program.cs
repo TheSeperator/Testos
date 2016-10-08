@@ -10,9 +10,13 @@ namespace Testos
     {
         static void Main(string[] args)
         {
-            Ente meineEnte = new Testos.Ente();
-            meineEnte.Quak();
-            meineEnte.Schwimmen();
+            var meineSchwimmers = new ISwimable[] { new Ente(), new Fisch() };
+
+            foreach (var schwimmer in meineSchwimmers)
+            {
+                schwimmer.Schwimmen();
+            }
+
             Console.ReadLine();
         }
     }
